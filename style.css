@@ -123,3 +123,63 @@ h1 {
 .info p {
   opacity: 0.8;
 }
+
+/* quote */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  border: 5px double #FF3131;
+  padding: 50px 200px;
+}
+
+.quote p {
+  font-size: 32px;
+  font-style: italic;
+  text-align: right;
+}
+
+.author {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+  opacity: 0.8;
+}
+
+/* signup */
+
+.sign-up {
+  margin: 50px 100px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border: 5px double #FF3131;
+}
+
+.sign-up-text {
+  flex: 1;
+  text-align: left;
+}
+
+.sign-up-text p {
+  opacity: 0.8;
+  margin: 5px;
+}
+
+.sign-up-button button {
+  width: 130px;
+  border: none;
+  background: #FF3131;
+  padding: 10px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  opacity: 0.8;
+}
