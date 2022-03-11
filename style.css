@@ -1,0 +1,43 @@
+/* colors: #7f00ff; #FF3131; #whitesmoke; :black; */
+
+body {
+  background: #7f00ff;
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #FF3131;
+  border: 5px double #7f00ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.face,
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
