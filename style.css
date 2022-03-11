@@ -96,4 +96,30 @@ h1 {
 .all_members_pic {
   width: 500px;
   height: auto;
+  box-shadow: 4px 4px black;
+  border-radius: 15px;
+}
+
+.content {
+  align-items: center;
+  border: 5px double #FF3131;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.info img {
+  width: auto;
+  height: 250px;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 4px 4px black;
+}
+
+.info p {
+  opacity: 0.8;
 }
