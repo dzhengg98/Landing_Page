@@ -130,8 +130,9 @@ h1 {
   border: 5px double #FF3131;
 }
 
+.all_members_pic:hover,
 .profile:hover {
-  transform:scale(1.15);
+  transform:scale(1.05);
   transition: 0.3s;
   border-radius: 25px;
   box-shadow: 0 0 15px black;
